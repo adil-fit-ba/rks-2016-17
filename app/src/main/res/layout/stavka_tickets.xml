@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Naslov poruke"
+        android:id="@+id/lblNaslovTicketa"
+        android:layout_below="@+id/lblKategorija"
+        android:layout_alignStart="@+id/lblKategorija"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategorija"
+        android:id="@+id/lblKategorija"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/lblZadnjaPorukaKorisnik"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Predmet"
+        android:id="@+id/lblPredmet"
+        android:layout_above="@+id/lblNaslovTicketa"
+        android:layout_alignEnd="@+id/lblZadnjaPorukaVrijeme"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sadrzaj poruke...Sadrzaj poruke...Sadrzaj poruke...Sadrzaj poruke...Sadrzaj poruke...Sadrzaj poruke..."
+        android:id="@+id/lblZadnjaPorukaSadrzaj"
+        android:layout_alignStart="@+id/lblNaslovTicketa"
+        android:layout_alignRight="@+id/lblPredmet"
+        android:layout_alignEnd="@+id/lblPredmet"
+        android:layout_below="@+id/lblNaslovTicketa"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ime i prezime"
+        android:id="@+id/lblZadnjaPorukaKorisnik"
+        android:layout_alignTop="@+id/lblZadnjaPorukaVrijeme"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15.01.2015 15:45h"
+        android:id="@+id/lblZadnjaPorukaVrijeme"
+        android:layout_below="@+id/lblZadnjaPorukaSadrzaj"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

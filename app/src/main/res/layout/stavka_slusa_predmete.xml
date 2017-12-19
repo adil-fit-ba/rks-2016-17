@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/godinaStudija"
+        android:text="2"
+        android:textSize="40dp"
+        android:layout_marginRight="5dp"/>
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/godinaStudija"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvNazivPredmeta"
+        android:text="Uvod u Programiranje"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEcts"
+        android:text="ECTS: 8"
+        android:layout_below="@+id/lvNazivPredmeta"
+        android:layout_alignParentLeft="true"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvOcjena"
+        android:text="deset(10)"
+        android:layout_alignParentRight="true"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDatumIspita"
+        android:text="12.02.2015"
+        android:layout_below="@+id/lvOcjena"
+        android:layout_alignParentRight="true"
+        />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

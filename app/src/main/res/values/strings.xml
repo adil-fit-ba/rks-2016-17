@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">eUniverzitet</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_odabir_studija">OdabirStudijaActivity</string>
+    <string name="title_activity_studiranje_home">Studiranje Home Activity</string>
+    <string name="title_activity_uplate">Uplate Activity</string>
+    <string name="title_activity_prijavljeni_ispiti">Prijavljeni ispiti Activity</string>
+    <string name="title_activity_slusa_predmete">Sluša predmete Activity</string>
+    <string name="title_activity_home4">Home4Activity</string>
+    <string name="title_activity_sliding_menu">SlidingMenuActivity</string>
+    <string name="drawer_otvoreno">Otvoreno</string>
+    <string name="drawer_zatvoreno">Zatvoreno</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

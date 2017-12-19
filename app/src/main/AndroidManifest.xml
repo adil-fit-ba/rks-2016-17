@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ba.fit.app.e_univerzitet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".area_autentifikacija.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".area_student.OdabirStudijaActivity"
+            android:label="@string/title_activity_odabir_studija" />
+        <activity
+            android:name=".area_student.primjer1_vise_activity.Home1Activity"
+            android:label="@string/title_activity_studiranje_home" />
+        <activity
+            android:name=".area_student.primjer2_vise_fragmenata.Home2Activity"
+            android:label="@string/title_activity_studiranje_home" />
+        <activity
+            android:name=".area_student.primjer1_vise_activity.UplateActivity"
+            android:label="@string/title_activity_uplate" />
+        <activity
+            android:name=".area_student.primjer1_vise_activity.PrijavljeniIspitiActivity"
+            android:label="@string/title_activity_prijavljeni_ispiti" />
+        <activity
+            android:name=".area_student.primjer1_vise_activity.SlusaPredmeteActivity"
+            android:label="@string/title_activity_slusa_predmete" />
+        <activity android:name=".area_student.primjer3_alert_dialoga.Home3Activity" />
+        <activity android:name=".area_student.primjer4_tabHost.Home4Activity" />
+        <activity android:name=".area_student.primjer5_sliding_menu.Home5Activity" />
+        <activity android:name=".area_student.primjer6_tickets_post.Home6Activity" />
+        <activity android:name=".area_autentifikacija.ShowHideActivity"></activity>
+    </application>
+
+</manifest>

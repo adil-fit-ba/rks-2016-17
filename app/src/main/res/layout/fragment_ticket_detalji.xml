@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="ba.fit.app.e_univerzitet.area_student.primjer6_tickets_post.TicketPregledFragment">
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/editText"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/btnOdgovori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Odgovori"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnZatvori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zatvori"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
